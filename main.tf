@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-west-1"
+  region = "ca-central-1"
 }
 
 
@@ -7,7 +7,7 @@ terraform {
   backend "s3" {
     bucket = "timur-project-terraform.tfstate"
     key    = "globalvars/terraform.tfstate"
-    region = "us-west-1"
+    region = "ca-central-1"
   }
 }
 #----------------------------------------------------------------
